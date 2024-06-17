@@ -28,6 +28,7 @@ app.get('/', async (req, res) => {
         const onlinve = $('meta[itemprop="author"]').attr('content') || $('link[itemprop="name"]').attr('content');
 
         console.log($('meta[itemprop="author"]'));
+        console.log($('meta[itemprop="author"]').attr('content'));
 
         const videoData = {
             title,
