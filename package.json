@@ -10,7 +10,9 @@
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",
     "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "moment": "^2.29.1",
+    "mongoose": "^8.4.1",
+    "puppeteer": "^22.11.1"
   },
   "author": "",
   "license": "ISC",

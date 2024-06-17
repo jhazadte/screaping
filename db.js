@@ -2,10 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://localhost:27017/scraper', {
-            useNewUrlParser: true,
-            useUnifiedTopology: true
-        });
+        await mongoose.connect('mongodb://localhost:27017/youtube-scraper');
         console.log('MongoDB connected...');
     } catch (err) {
         console.error(err.message);
@@ -14,3 +11,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
